@@ -1,0 +1,21 @@
+span{
+	height: 50px;
+	width: 75px;
+	background: #00ff00;
+	display: table-cell;
+}
+div{
+	height: 400px;
+	width: 30%;
+	background: #00ffff;
+	display: inline-block;
+	float: left;
+
+
+}
+p{
+	background: #ff00ff;
+	width: 200px;
+	height: 100px;
+
+}

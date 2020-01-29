@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ElementsPractice</title>
+	<script>
+	function printDate(){
+		name= prompt("Type Name Here:")
+		document.getElementById("date").innerHTML = Date();
+		document.getElementById("name").innerHTML = name + ". ";
+	}
+	</script>
+</head>
+
+<body onload="printDate()">
+	<p> Welcome <span id="name"></span>The current date is <span id="date"></span></p>
+	
+
+
+</body>
+</html>
